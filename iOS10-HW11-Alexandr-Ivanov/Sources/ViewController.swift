@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.rightView = checkIconView
         textField.rightViewMode = .always
+        textField.layer.addShadows()
 
         return textField
     }()
@@ -44,6 +45,7 @@ class ViewController: UIViewController {
         textField.setLeftIcon(UIImage(systemName: "lock") ?? UIImage())
         textField.layer.cornerRadius = 22
         textField.translatesAutoresizingMaskIntoConstraints = false
+        textField.layer.addShadows()
 
         return textField
     }()
@@ -83,6 +85,7 @@ class ViewController: UIViewController {
         button.titleLabel?.textColor = .white
         button.layer.cornerRadius = 22
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.layer.addShadows()
 
         return button
     }()
