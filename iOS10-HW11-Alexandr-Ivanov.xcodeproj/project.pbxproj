@@ -11,8 +11,8 @@
 		F6B0144E2A39EE0B004B7EC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B0144D2A39EE0B004B7EC5 /* ViewController.swift */; };
 		F6B014532A39EE0C004B7EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B014522A39EE0C004B7EC5 /* Assets.xcassets */; };
 		F6B014562A39EE0C004B7EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B014542A39EE0C004B7EC5 /* LaunchScreen.storyboard */; };
-		F6B014632A3B0FAE004B7EC5 /* UITextField + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B014622A3B0FAE004B7EC5 /* UITextField + Extensions.swift */; };
-		F6B014652A3B965F004B7EC5 /* CALayer + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B014642A3B965F004B7EC5 /* CALayer + Extensions.swift */; };
+		F6B014632A3B0FAE004B7EC5 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B014622A3B0FAE004B7EC5 /* UITextField+Extensions.swift */; };
+		F6B014652A3B965F004B7EC5 /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B014642A3B965F004B7EC5 /* CALayer+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +22,8 @@
 		F6B014522A39EE0C004B7EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6B014552A39EE0C004B7EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6B014572A39EE0C004B7EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6B014622A3B0FAE004B7EC5 /* UITextField + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + Extensions.swift"; sourceTree = "<group>"; };
-		F6B014642A3B965F004B7EC5 /* CALayer + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer + Extensions.swift"; sourceTree = "<group>"; };
+		F6B014622A3B0FAE004B7EC5 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		F6B014642A3B965F004B7EC5 /* CALayer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 		F6B014612A3B0F61004B7EC5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				F6B014622A3B0FAE004B7EC5 /* UITextField + Extensions.swift */,
-				F6B014642A3B965F004B7EC5 /* CALayer + Extensions.swift */,
+				F6B014622A3B0FAE004B7EC5 /* UITextField+Extensions.swift */,
+				F6B014642A3B965F004B7EC5 /* CALayer+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -177,8 +177,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6B014632A3B0FAE004B7EC5 /* UITextField + Extensions.swift in Sources */,
-				F6B014652A3B965F004B7EC5 /* CALayer + Extensions.swift in Sources */,
+				F6B014632A3B0FAE004B7EC5 /* UITextField+Extensions.swift in Sources */,
+				F6B014652A3B965F004B7EC5 /* CALayer+Extensions.swift in Sources */,
 				F6B0144E2A39EE0B004B7EC5 /* ViewController.swift in Sources */,
 				F6B0144A2A39EE0B004B7EC5 /* AppDelegate.swift in Sources */,
 			);

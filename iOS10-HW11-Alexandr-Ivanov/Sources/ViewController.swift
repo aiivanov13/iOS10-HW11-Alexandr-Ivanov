@@ -91,15 +91,6 @@ class ViewController: UIViewController {
 
     private lazy var loginStackView: UIStackView = {
         let stackView = UIStackView()
-        stackView.addArrangedSubview(loginLabel)
-        stackView.addArrangedSubview(loginTextField)
-        stackView.addArrangedSubview(passwordTextField)
-        stackView.addArrangedSubview(loginButton)
-        stackView.addArrangedSubview(forgotButton)
-        stackView.spacing = view.bounds.height / 20
-        stackView.setCustomSpacing(view.bounds.height / 20, after: passwordTextField)
-        stackView.setCustomSpacing(view.bounds.height / 40, after: loginTextField)
-        stackView.setCustomSpacing(view.bounds.height / 60, after: loginButton)
         stackView.axis = .vertical
         stackView.translatesAutoresizingMaskIntoConstraints = false
 
@@ -132,9 +123,6 @@ class ViewController: UIViewController {
 
     private lazy var alternativeConnectStackView: UIStackView = {
         let stackView = UIStackView()
-        stackView.addArrangedSubview(separatorLeft)
-        stackView.addArrangedSubview(alternativeConnectLabel)
-        stackView.addArrangedSubview(separatorRight)
         stackView.alignment = .center
         stackView.axis = .horizontal
         stackView.translatesAutoresizingMaskIntoConstraints = false
@@ -174,8 +162,6 @@ class ViewController: UIViewController {
 
     private lazy var socialNetworkStackView: UIStackView = {
         let stackView = UIStackView()
-        stackView.addArrangedSubview(facebookButton)
-        stackView.addArrangedSubview(twitterButton)
         stackView.axis = .horizontal
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.spacing = 30
@@ -206,8 +192,6 @@ class ViewController: UIViewController {
 
     private lazy var signUpStackView: UIStackView = {
         let stackView = UIStackView()
-        stackView.addArrangedSubview(signUpLabel)
-        stackView.addArrangedSubview(signUpButton)
         stackView.axis = .horizontal
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.spacing = 10
@@ -229,9 +213,25 @@ class ViewController: UIViewController {
     private func setupHierarchy() {
         view.addSubview(backgroundImage)
         view.addSubview(loginStackView)
+        loginStackView.addArrangedSubview(loginLabel)
+        loginStackView.addArrangedSubview(loginTextField)
+        loginStackView.addArrangedSubview(passwordTextField)
+        loginStackView.addArrangedSubview(loginButton)
+        loginStackView.addArrangedSubview(forgotButton)
+        loginStackView.spacing = view.bounds.height / 20
+        loginStackView.setCustomSpacing(view.bounds.height / 20, after: passwordTextField)
+        loginStackView.setCustomSpacing(view.bounds.height / 40, after: loginTextField)
+        loginStackView.setCustomSpacing(view.bounds.height / 60, after: loginButton)
         view.addSubview(alternativeConnectStackView)
+        alternativeConnectStackView.addArrangedSubview(separatorLeft)
+        alternativeConnectStackView.addArrangedSubview(alternativeConnectLabel)
+        alternativeConnectStackView.addArrangedSubview(separatorRight)
         view.addSubview(socialNetworkStackView)
+        socialNetworkStackView.addArrangedSubview(facebookButton)
+        socialNetworkStackView.addArrangedSubview(twitterButton)
         view.addSubview(signUpStackView)
+        signUpStackView.addArrangedSubview(signUpLabel)
+        signUpStackView.addArrangedSubview(signUpButton)
     }
 
     private func setupLayout() {
